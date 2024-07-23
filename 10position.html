@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position CSs</title>
+</head>
+<style>
+    .area {
+        border: 1px solid black;
+        width: 540px;
+        
+    }
+
+    .box {
+        
+        width: 150px;
+        border: 1px solid red;
+    }
+
+    .sta {
+        position: static;
+        background-color: aqua;
+    }
+
+    .rela {
+
+        position: relative;
+        background-color: green;
+        left: 10px;
+    }
+
+    .abs {
+        position: absolute;
+        left: 450px;
+        padding: 5px;
+        background-color: cadetblue;
+
+    }
+
+        .fix {
+
+        position: fixed;
+        top: 320px;
+    }
+
+    .sti {
+        position: sticky;
+        top: 10px;
+        background-color: blueviolet;
+    }
+    .bx
+</style>
+
+<body style="height: 1920px;">
+    <div class="area">
+        <div class="box sta">
+            <h3>position static</h3>
+        </div>
+        <div class="box rela">
+            <h3>Posotion Relation</h3>
+        </div>
+        <div class="box abs">
+            <h1>Abs</h1>
+        </div>
+        <div class="box fix">
+            <h1>Fixed</h1>
+        </div>
+    </div>
+    <div class="box">
+        <h3></h3>
+    </div>   
+
+    <div class="box1 sti">
+        <h1>Sticky</h1>
+    </div>
+</body>
+
+</html>

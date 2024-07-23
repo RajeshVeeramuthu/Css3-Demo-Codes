@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow</title>
+</head>
+<style>
+    .box{
+        border: 2px solid red;
+        background-color: blue;
+        width: 230px;
+        height: 140px;
+        color: white;
+        margin: 20px;
+    }
+    .of-hidden{
+        overflow: hidden;
+    }
+
+
+    .of-scr{
+        overflow: scroll;
+        background-color: green !important;
+        color: red !important;
+    }
+
+    .of-auto{
+        overflow: auto;
+        background-color: rgb(128, 0, 128) !important;
+        color:white !important;
+    }
+
+</style>
+<body>
+    <div class="box of-hidden">
+        <p>Lorem 
+            klkdlkflkdlkfdlkfipsum dolor sit amet consectetur adipisicing elit. Et asperiores laudantium quasi consectetur qui expedita sequi mollitia obcaecati illum voluptatem alias voluptates itaque explicabo beatae iure, hic in inventore iusto.abcdefghijklmnoarsteuvexasfjkdj</p>
+    </div>
+    <div class="box of-scr">
+        <p>Lorem 
+            klkdlkflkdlkfdlkfipsum dolor sit amet consectetur adipisicing elit. Et asperiores laudantium quasi consectetur qui expedita sequi mollitia obcaecati illum voluptatem alias voluptates itaque explicabo beatae iure, hic in inventore iusto.abcdefghijklmnoarsteuvexasfjkdj</p>
+    </div>
+
+    <div class="box of-auto">
+        <p>Lorem 
+            klkdlkflkdlkfdlkfipsum dolor sit amet consectetur adipisicing elit. Et asperiores laudantium quasi consectetur qui expedita sequi mollitia obcaecati illum voluptatem alias voluptates itaque explicabo beatae iure, hic in inventore iusto.abcdefghijklmnoarsteuvexasfjkdj</p>
+    </div>
+
+</body>
+</html>

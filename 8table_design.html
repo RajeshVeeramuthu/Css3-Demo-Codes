@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Design Style</title>
+</head>
+<style>
+    table,th,td{
+        border: 1px solid green;
+    }
+    th{
+        text-align: left;
+        background-color: red;;
+        color:white;
+    }
+     .table-f-style{
+        font-size: 20pt;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 100%;
+   }
+   td{
+    text-align: center;
+   }
+   tr:nth-child(even){
+    background-color: gray;
+    color:white;
+   }
+   tr:hover{
+    background-color: black;
+    color: white;
+
+   }
+</style>
+<body>
+    <h1>Table Design</h1>
+    <table class="table-f-style table-align table-fancy">
+        <tr>
+            <th>Sno</th>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Tonny</td>
+            <td>31</td>
+        </tr>
+        <tr >
+            <td>2</td>
+            <td>Peter</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Tom</td>
+            <td>19</td>
+        </tr>
+    </table>
+</body>
+</html>
