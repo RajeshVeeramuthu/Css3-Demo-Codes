@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Design</title>
+</head>
+<style>
+    .conn{
+        border:2px solid gray;
+        width: fit-content;
+        padding: 15px;
+        margin-left:33% ;
+        margin-top: 10%;
+        box-shadow: 2px 0 8px 0 black;
+    }
+    div{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    body{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: white;
+    font-size: 18pt;
+    }
+    /* h1::before{
+        content: url("src_img/download.jpeg");
+        
+    } */
+    /* #div1 > label{
+        color: blue;
+    } */
+label{
+    margin-right: 5px;  
+}
+input{
+    font-size: 18pt;
+}
+button{
+    font-size: 18pt;
+}
+input[type=text]:hover{
+border: 2px solid #6a5bee;
+}
+input[type=number]:hover{
+border: 2px solid gray;
+}
+input[type=email]:hover{
+border: 2px solid #6a5bee;
+}
+input[type=date]:hover{
+border: 2px solid #808080dc;
+}
+#submitbtn{
+    border: 2px solid blue;
+
+}
+#submitbtn:hover{
+    background-color: blue;
+    color: white;
+}
+#cancelbtn{
+    float: right; 
+    border: 2px solid red;
+}
+#cancelbtn:hover{
+    background-color: red;
+    color: white;
+}
+#Nametxt{
+    margin-left: 20px;
+}
+#fnametxt{
+    margin-left: 32px;
+}
+#dob{
+    margin-left: 104px;
+}
+#mailidtxt{
+    margin-left: 77px;
+}
+/* form{
+    opacity: 0.5;
+}
+form:hover{
+    opacity: 1;
+} */
+</style>
+<body>
+    <div class="conn">
+        <form>
+            <h1>
+                Student Registration 
+            </h1>
+            <div id="div1">
+                <label id="namelbl" for="Nametxt">Student Name</label>
+                <input type="text" id="Nametxt" name="Nametxt" placeholder="Student Name">
+            </div>
+            <div>
+                <label id="fnamelbl" for="fnametxt">Father Name</label>
+                <input type="text" id="fnametxt" name="fnametxt" placeholder="Father Name">
+            </div>
+            <div>
+                <label id="doblbl" for="dob">DOB</label>
+                <input type="date" id="dob" name="dob" placeholder="Date of Birth">
+            </div>
+            <div>
+                <label id="mobileno" for="mobileno">Moblie Number</label>
+                <input type="number" id="mobileno" name="mobileno" placeholder="Mobile Number">
+            </div>
+            <div>
+                <label id="mailid" for="mailid">Mail ID</label>
+                <input type="email" id="mailidtxt" name="mailid" placeholder="mail Id">
+            </div>
+            <div>
+                <button type="submit" id="submitbtn">Submit</button>
+                <button type="reset" id="cancelbtn">Clear</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
