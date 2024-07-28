@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Css3</title>
+</head>
+<style>
+    .cont{
+        display: block;
+        background-color: rgb(220, 220, 233);
+    }
+    li{
+        list-style-type: none;
+    }
+    .nav-horizondal{
+        display: inline-block;
+        font-size: 20px;
+        margin: 15px;
+    }
+    @media screen and (width: 320px) {
+
+        .nav-horizondal{
+            display: block;
+            color: yellow;
+        }
+    }
+    @media screen and (width: 768px) {
+.cont{
+    display: block;
+        background-color: purple;
+        font-size: 20px;
+}
+}
+</style>
+<body>
+    <div class="cont">
+        <nav>
+            <ul>
+                <li class="nav-horizondal">Home</li>
+                <li class="nav-horizondal">Profile</li>
+                <li class="nav-horizondal">About</li>
+                <li class="nav-horizondal">Work</li>
+                <li class="nav-horizondal">Contact</li>
+                
+            </ul>
+        </nav>
+
+    </div>
+</body>
+</html>

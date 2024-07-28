@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Css</title>
+</head>
+<style>
+    .grid-con {
+        display: inline-grid;
+        grid-template-columns: auto auto auto;
+        border: 1px solid rgb(0, 0, 0);
+    }
+
+    .grid-item {
+        padding: 15px;
+        border: 1px solid black;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+    }
+
+    .item1 {
+
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+</style>
+
+<body>
+    <div class="grid-con  ">
+        <div class="grid-item item1"><img src="src_img/download.jpeg"></div>
+        <div class="grid-item">Name</div>
+        <div class="grid-item">Arun</div>
+        <div class="grid-item"></div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+    </div>
+</body>
+
+</html>
